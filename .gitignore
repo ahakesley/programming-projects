@@ -1,2 +1,4 @@
 
 python/contacts-app/__pycache__/layout.cpython-38.pyc
+python/contacts-app/contacts.sqlite
+python/contacts-app/__pycache__/database.cpython-38.pyc

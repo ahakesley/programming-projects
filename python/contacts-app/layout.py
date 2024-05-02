@@ -10,6 +10,7 @@ from PyQt5.QtWidgets import (
     QPushButton,
     QGridLayout,
 )
+from database import Database
 
 WINDOW_HEIGHT = 400
 WINDOW_WIDTH = 600
@@ -21,6 +22,7 @@ class ContactsAppWindow(QMainWindow):
         self.setFixedWidth(WINDOW_WIDTH)
         self.setFixedHeight(WINDOW_HEIGHT)
         self._setLayout()
+        self.database = Database()
 
     def new_button_clicked(self):
         print("Clicked 'New' button")
